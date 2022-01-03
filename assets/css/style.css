@@ -1,11 +1,26 @@
 body {
     font-family: 'Lato', sans-serif;
+    background: linear-gradient(50deg, #a05601 60%, #35322f 60%);
     overflow-x: hidden;
+
+}
+
+footer {
+    background: linear-gradient(60deg, #a05601 40%, #35322f 60%);
+    color: white;
+    border-top: solid grey 1px;
+}
+
+.border-bottom-white {
+    border-bottom: solid 1px grey;
+}
+.navbar-light .navbar-brand {
+    color: white;
 }
 
 .text-decoration-none {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .text-decoration-none:hover {
@@ -13,16 +28,19 @@ body {
 }
 
 .about-us {
-    background-color: rgba(0, 0, 0, 0.3);
+   
     color: white;
+    border: solid 1px grey;
 }
+
+
 
 .wrapper {
     height: 100vh;
     background: #000;
     background: url("https://lp-cms-production.imgix.net/2019-06/477913205_medium.jpg");
     background-size: cover;
-    width: 100%
+    width: 100%;
 }
 
 .overlay {
@@ -101,3 +119,20 @@ p {
 .form-control {
     padding: .375rem .25rem
 }
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgba(0, 0, 0, 0.5); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 20px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
