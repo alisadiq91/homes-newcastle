@@ -6,7 +6,7 @@ body {
 }
 
 footer {
-    background: linear-gradient(60deg, #a05601 40%, #35322f 60%);
+    background: linear-gradient(50deg, #a05601 60%, #35322f 60%);
     color: white;
     border-top: solid grey 1px;
 }
