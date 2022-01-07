@@ -1,16 +1,42 @@
 body {
     font-family: 'Lato', sans-serif;
-    background: linear-gradient(50deg, #a05601 60%, #35322f 60%);
+    background: linear-gradient(40deg, #a05601 50%, #35322f 60%);
     overflow-x: hidden;
 
 }
 
+.header-border {
+    background-color: rgba(250, 100, 0, 0.2);
+}
+.header-size {
+    font-size: x-large;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.letter-spacing {
+    letter-spacing: 2px;
+    font-size: large;
+}
+
+.wrapper {
+    border-top: solid grey 1px;;
+}
+
 footer {
-    background: linear-gradient(50deg, #a05601 60%, #35322f 60%);
+    background: linear-gradient(40deg, #a05601 50%, #35322f 60%);
     color: white;
     border-top: solid grey 1px;
 }
 
+.hover-grey:hover {
+    color: grey;
+}
+
+.title-about {
+    font-size: xx-large;
+    font-weight: bold;
+}
 .border-bottom-white {
     border-bottom: solid 1px grey;
 }
@@ -30,7 +56,11 @@ footer {
 .about-us {
    
     color: white;
-    border: solid 1px grey;
+    
+}
+
+.green {
+    color: green;
 }
 
 
