@@ -101,6 +101,16 @@ footer a {
     color: rgb(163, 163, 163) !important;
 }
 
+.text-decoration-green {
+    text-decoration: none;
+    
+}
+
+.text-decoration-green:hover {
+    color: rgb(34, 241, 120) !important;
+    text-decoration: none !important;
+}
+
 .about-us {
    
     color: white;
