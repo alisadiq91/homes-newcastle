@@ -7,7 +7,7 @@ body {
 }
 
 .background-here {
-    background: url(https://www.uk.weber/files/gb/pictures/2018-05/Chart%20Ridge%201.jpg);
+    background: url(https://boomersdaily.files.wordpress.com/2020/01/row_of_knightsbridge_georgian_houses_-_flickr_-_supermac1961-london-wikipedia.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -18,9 +18,10 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
 }
 .header-size {
-    font-size: x-large;
+    font-size: xxx-large;
     font-weight: bold;
     letter-spacing: 2px;
+    font-family: 'Khand', sans-serif;
 }
 
 .letter-spacing {
