@@ -1,12 +1,21 @@
 body {
     font-family: 'Lato', sans-serif;
-    background: linear-gradient(40deg, #a05601 50%, #35322f 60%);
+   
     overflow-x: hidden;
+    color: white;
 
 }
 
+.background-here {
+    background: url(https://www.uk.weber/files/gb/pictures/2018-05/Chart%20Ridge%201.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-box {
+    background-color: rgba(0, 0, 0, 0.7);
+}
 .header-border {
-    background-color: rgba(250, 100, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 .header-size {
     font-size: x-large;
@@ -20,26 +29,54 @@ body {
 }
 
 .wrapper {
-    border-top: solid grey 1px;;
+    border-top: solid white 3px;;
+}
+.text-size {
+    font-size: larger;
 }
 
 footer {
-    background: linear-gradient(40deg, #a05601 50%, #35322f 60%);
+    background: rgba(0, 0, 0);
+    font-size: 1px !important;
+    color: grey;
+    border-top: solid white 3px;
+}
 
-    color: white;
-    border-top: solid grey 1px;
+footer a {
+    color: grey !important;
 }
 
 .hover-grey:hover {
     color: grey;
 }
 
+.bg-white{
+    color: black;
+}
+
+.font-small {
+    font-size: small;
+    font-weight: lighter;
+}
+.zoom {
+    transition: transform 2s; /* Animation */
+}
+.zoom:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+  }
+.rounded-50 {
+   
+        border-radius: 3%;
+    
+}
 .title-about {
     font-size: xx-large;
     font-weight: bold;
 }
 .border-bottom-white {
-    border-bottom: solid 1px grey;
+    border-bottom: solid 3px white;
 }
 .navbar-light .navbar-brand {
     color: white;
@@ -64,12 +101,17 @@ footer {
     color: green;
 }
 
+.bright-green {
+    color: rgb(64, 255, 64);
+}
+
+.btn-success {
+    background-color: rgb(64, 255, 64) !important;
+}
 
 .wrapper {
+ 
     
-    background: #000;
-    background: url("https://lp-cms-production.imgix.net/2019-06/477913205_medium.jpg");
-    background-size: cover;
     width: 100%;
 }
 
@@ -113,9 +155,6 @@ p {
     font-size: 20px
 }
 
-.forms {
-    padding: 20px
-}
 
 .inputs input {
     margin-bottom: 13px;
