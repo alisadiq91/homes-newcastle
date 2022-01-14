@@ -23,7 +23,7 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
 }
 .header-size {
-    font-size: xxx-large;
+    font-size: xx-large;
     font-weight: bold;
     letter-spacing: 2px;
     font-family: 'Khand', sans-serif;
@@ -43,13 +43,17 @@ body {
 
 footer {
     background: rgba(0, 0, 0);
-    font-size: 1px !important;
+    font-size: smaller !important;
     color: grey;
     border-top: solid white 3px;
 }
 
 footer a {
     color: grey !important;
+}
+
+.footer-copyright {
+    font-size: x-small !important;
 }
 
 .hover-grey:hover {
